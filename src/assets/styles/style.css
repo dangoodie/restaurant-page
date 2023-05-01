@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Yellowtail";
+  src: url("../fonts/Yellowtail-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FjallaOne";
+  src: url("../fonts/FjallaOne-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.title-text {
+  font-family: "Yellowtail", cursive;
+}
+
+.description {
+  font-family: "FjallaOne", Arial, Helvetica, sans-serif;
+}

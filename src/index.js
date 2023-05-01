@@ -1,10 +1,15 @@
+import './assets/styles/style.css'
+import description from './components/description';
+import navbar from './components/navbar';
 import titleRow from "./components/titleRow";
 
-function component() {
-  const element = document.createElement("div");
-  element.appendChild(titleRow());
+function index() {
+  const index = document.createElement("div");
+  index.appendChild(navbar());
+  index.appendChild(titleRow());
+  index.appendChild(description())
 
-  return element;
+  return index;
 }
 
-document.getElementById("content").appendChild(component());
+document.getElementById("content").appendChild(index());

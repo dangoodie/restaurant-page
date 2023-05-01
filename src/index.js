@@ -1,15 +1,11 @@
 import './assets/styles/style.css'
-import description from './components/description';
-import navbar from './components/navbar';
-import titleRow from "./components/titleRow";
+import Home from './pages/home.js';
 
 function index() {
   const index = document.createElement("div");
-  index.appendChild(navbar());
-  index.appendChild(titleRow());
-  index.appendChild(description())
+  index.appendChild(Home());
 
   return index;
 }
 
-document.body.appendChild(index());
+document.body.appendChild(index())

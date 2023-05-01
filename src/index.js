@@ -12,4 +12,4 @@ function index() {
   return index;
 }
 
-document.getElementById("content").appendChild(index());
+document.body.appendChild(index());

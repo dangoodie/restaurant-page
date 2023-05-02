@@ -12,10 +12,64 @@
   font-style: normal;
 }
 
+* {
+  font-family: "FjallaOne", Arial, Helvetica, sans-serif;
+}
+
+/* nav area */
+
+nav {
+  display: flex;
+  padding: 15px;
+  background-color: #820300;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-btn {
+   color: #f7b21f;
+   font-size: 2rem;
+   text-decoration: none;
+   border: 2px solid #f7b21f;
+   padding: 5px 20px;
+   background-color: #820300;
+}
+
+.nav-btn:hover {
+  background-color: #750200;
+}
+
+.nav-btn:focus {
+  background-color: #660200;
+}
+
 .title-text {
   font-family: "Yellowtail", cursive;
 }
 
-.description {
-  font-family: "FjallaOne", Arial, Helvetica, sans-serif;
+/* main page */
+
+.title-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.title-img {
+  width: 200px;
+  height: auto;
+}
+
+.title-text {
+  color: #820300;
+  font-size: 4rem;
+}
+
+.description {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* menu page */
+

@@ -4,16 +4,22 @@ import Navbar from "../components/navbar.js";
 import MozzarellaPizza from "../assets/img/mozzarella-pizza.jpg";
 
 const Menu = () => {
-  const menu = document.createElement("div");
-  menu.appendChild(Navbar());
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  const menuPage = document.createElement("div");
+  menuPage.appendChild(Navbar());
 
-  return menu;
+  const menu = document.createElement("div");
+  menu.classList.add("menu");
+
+  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  
+  menuPage.appendChild(menu);
+
+  return menuPage;
 };
 export default Menu;

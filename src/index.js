@@ -1,3 +1,4 @@
+import "normalize.css"
 import "./assets/styles/style.css";
 import Home from "./pages/home.js";
 import DisplayController from "./displayController";

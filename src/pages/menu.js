@@ -9,6 +9,7 @@ const Menu = () => {
 
   const menu = document.createElement("div");
   menu.classList.add("menu");
+  
 
   menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
   menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
@@ -17,7 +18,7 @@ const Menu = () => {
   menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
   menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
   menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  
+
   menuPage.appendChild(menu);
 
   return menuPage;

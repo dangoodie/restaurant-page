@@ -86,9 +86,9 @@ nav {
 }
 
 .menu-item {
-  display: flex;
+  display: grid;
   gap: 20px;
-  justify-content: center;
+  grid-template-columns: auto 500px;
   align-items: center;
 }
 

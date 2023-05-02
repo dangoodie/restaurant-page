@@ -1,25 +1,23 @@
-import Img from "../assets/img/mozzarella-pizza.jpg";
-
-const MenuItem = () => {
+const MenuItem = (img, title, price) => {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
 
-  const img = new Image();
-  img.classList.add("menu-item-img");
-  img.src = Img;
+  const _img = new Image();
+  _img.classList.add("menu-item-img");
+  _img.src = img;
 
-  const title = document.createElement("p");
-  title.classList.add("menu-item-title");
-  title.textContent = "Mozzarella Pizza";
+  const _title = document.createElement("p");
+  _title.classList.add("menu-item-title");
+  _title.textContent = title;
 
-  const price = document.createElement("p");
-  price.classList.add("menu-item-price");
-  price.textContent = "$20";
+  const _price = document.createElement("p");
+  _price.classList.add("menu-item-price");
+  _price.textContent = price;
 
-  menuItem.appendChild(img);
-  menuItem.appendChild(title);
-  menuItem.appendChild(price);
+  menuItem.appendChild(_img);
+  menuItem.appendChild(_title);
+  menuItem.appendChild(_price);
   return menuItem;
-}
+};
 
 export default MenuItem;

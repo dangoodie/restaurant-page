@@ -37,6 +37,7 @@ module.exports = {
           dynamicTyping: true,
           header: true,
           skipEmptyLines: true,
+          delimiter: "",
         },
       },
     ],

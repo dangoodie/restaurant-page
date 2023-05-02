@@ -1,7 +1,7 @@
 img,title,price,description
-https://example.com/pizza_margherita.jpg,Pizza Margherita,9.99,A classic Neapolitan pizza with tomato sauce, fresh mozzarella cheese, and basil leaves.
-https://example.com/pizza_pepperoni.jpg,Pizza Pepperoni,11.99,A classic American pizza with tomato sauce, mozzarella cheese, and pepperoni slices.
-https://example.com/pizza_hawaiian.jpg,Pizza Hawaiian,10.99,A tropical twist on pizza with tomato sauce, mozzarella cheese, ham, and pineapple chunks.
-https://example.com/pizza_mushroom.jpg,Pizza Mushroom,12.99,A vegetarian pizza with tomato sauce, mozzarella cheese, and sautéed mushrooms.
-https://example.com/pizza_bbq_chicken.jpg,Pizza BBQ Chicken,13.99,A barbecue-style pizza with tomato sauce, mozzarella cheese, barbecue sauce, grilled chicken, and red onion slices.
-https://example.com/pizza_veggie_delight.jpg,Pizza Veggie Delight,11.99,A veggie-packed pizza with tomato sauce, mozzarella cheese, red and green bell peppers, red onions, black olives, and mushrooms.
+https://cdn.shopify.com/s/files/1/0944/3476/articles/20220211142754-margherita-9920.jpg?crop=center&height=915&v=1644590277&width=1200,Pizza Margherita,9.99,"A classic Neapolitan pizza with tomato sauce, fresh mozzarella cheese, and basil leaves."
+https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60,Pizza Pepperoni,11.99,"A classic American pizza with tomato sauce, mozzarella cheese, and pepperoni slices."
+https://img.kidspot.com.au/pZnR2nZu/kk/2015/03/hawaiian-pizza-recipe-605894-2.jpg,Pizza Hawaiian,10.99,"A tropical twist on pizza with tomato sauce, mozzarella cheese, ham, and pineapple chunks."
+https://www.seriouseats.com/thmb/raKxsIKeWQXvmVtgcAoBtRYZ9Gw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__07__20150702-mushroom-truffle-pizza-1-0a0355c9cb2142d9a43cd20ee6b8b2b3.jpg,Pizza Mushroom,12.99,"A vegetarian pizza with tomato sauce, mozzarella cheese, and sautéed mushrooms."
+https://www.southernliving.com/thmb/SUC7jw5joHEfiCpk3Hf0wOyoT3U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/BBQ-Chicken-Pizza_WD0151-S-256b0bd90b294badb343211b3310160b.jpg,Pizza BBQ Chicken,13.99,"A barbecue-style pizza with tomato sauce, mozzarella cheese, barbecue sauce, grilled chicken, and red onion slices."
+https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/41/a7/43/popo-s-veggie-delight.jpg,Pizza Veggie Delight,11.99,"A veggie-packed pizza with tomato sauce, mozzarella cheese, red and green bell peppers, red onions, black olives, and mushrooms."

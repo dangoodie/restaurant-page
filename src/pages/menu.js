@@ -1,9 +1,6 @@
 import MenuItem from "../components/menuItem.js";
 import Navbar from "../components/navbar.js";
-
 import MenuDatabase from "../database/menu.csv"
-
-
 
 const Menu = () => {
   const menuPage = document.createElement("div");

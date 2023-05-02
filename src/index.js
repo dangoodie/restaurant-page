@@ -1,9 +1,10 @@
 import './assets/styles/style.css'
 import Home from './pages/home.js';
+import Menu from './pages/menu';
 
 function index() {
   const index = document.createElement("div");
-  index.appendChild(Home());
+  index.appendChild(Menu());
 
   return index;
 }

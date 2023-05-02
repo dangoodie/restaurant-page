@@ -25,6 +25,8 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  position: sticky;
+  top: 0px;
 }
 
 .nav-btn {
@@ -51,6 +53,7 @@ nav {
 /* main page */
 
 .title-row {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

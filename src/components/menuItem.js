@@ -10,12 +10,16 @@ const MenuItem = (img, title, price) => {
   _title.classList.add("menu-item-title");
   _title.textContent = title;
 
+  const _span = document.createElement("span");
+  _span.textContent = "-"
+
   const _price = document.createElement("p");
   _price.classList.add("menu-item-price");
   _price.textContent = price;
 
   menuItem.appendChild(_img);
   menuItem.appendChild(_title);
+  menuItem.appendChild(_span);
   menuItem.appendChild(_price);
   return menuItem;
 };

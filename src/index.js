@@ -8,7 +8,7 @@ import Contact from "./pages/contact";
 function index() {
   const contentDiv = document.createElement("div");
   contentDiv.id = "content"
-  contentDiv.appendChild(Contact());
+  contentDiv.appendChild(Menu());
 
   return contentDiv;
 }

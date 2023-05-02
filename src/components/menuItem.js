@@ -1,9 +1,12 @@
+
+
 const MenuItem = (item) => {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
 
   const _img = new Image();
   _img.classList.add("menu-item-img");
+
   _img.src = item.img;
 
   const _title = document.createElement("p");

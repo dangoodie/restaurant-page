@@ -1,8 +1,6 @@
 import MenuItem from "../components/menuItem.js";
 import Navbar from "../components/navbar.js";
 
-import MozzarellaPizza from "../assets/img/mozzarella-pizza.jpg";
-
 import MenuDatabase from "../database/menu.csv"
 
 

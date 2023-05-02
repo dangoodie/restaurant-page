@@ -96,6 +96,23 @@ nav {
   height: 100px;
 }
 
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-top-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-top-row > p, .menu-description {
+  margin: 0;
+}
+
 /* contact page */
 .contact-container {
   display: flex;

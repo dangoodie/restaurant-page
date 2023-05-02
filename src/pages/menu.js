@@ -11,13 +11,47 @@ const Menu = () => {
   menu.classList.add("menu");
   
 
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
-  menu.appendChild(MenuItem(MozzarellaPizza, "Mozzarella Pizza", "$20"));
+  menu.appendChild(
+    MenuItem(
+      MozzarellaPizza,
+      "Mozzarella Pizza",
+      "$20",
+      "A classic Neapolitan pizza with tomato sauce, fresh mozzarella cheese, and basil leaves."
+    )
+  );
+  menu.appendChild(
+    MenuItem(
+      MozzarellaPizza,
+      "Mozzarella Pizza",
+      "$20",
+      "A classic Neapolitan pizza with tomato sauce, fresh mozzarella cheese, and basil leaves."
+    )
+  );
+  menu.appendChild(
+    MenuItem(
+      MozzarellaPizza,
+      "Mozzarella Pizza",
+      "$20",
+      "A classic Neapolitan pizza with tomato sauce, fresh mozzarella cheese, and basil leaves."
+    )
+  );
+  menu.appendChild(
+    MenuItem(
+      MozzarellaPizza,
+      "Mozzarella Pizza",
+      "$20",
+      "A classic Neapolitan pizza with tomato sauce, fresh mozzarella cheese, and basil leaves."
+    )
+  );
+  menu.appendChild(
+    MenuItem(
+      MozzarellaPizza,
+      "Mozzarella Pizza",
+      "$20",
+      "A classic Neapolitan pizza with tomato sauce, fresh mozzarella cheese, and basil leaves."
+    )
+  );
+  
 
   menuPage.appendChild(menu);
 

@@ -4,17 +4,18 @@ import Contact from "./pages/contact";
 
 const DisplayController = () => {
   function updateDisplay(menuItem) {
-    document.body.innerHTML = "";
+    const contentDiv = document.querySelector("#content");
+    contentDiv.innerHTML = "";
 
     switch (menuItem) {
       case "#home":
-        document.body.appendChild(Home());
+        contentDiv.appendChild(Home());
         break;
       case "#menu":
-        document.body.appendChild(Menu());
+        contentDiv.appendChild(Menu());
         break;
       case "#contact":
-        document.body.appendChild(Contact());
+        contentDiv.appendChild(Contact());
         break;
 
       default:
@@ -25,7 +26,7 @@ const DisplayController = () => {
   }
 
   function handleClick(e) {
-    e.preventDefault();
+
     const menuItem = e.target.attributes.href.value;
     updateDisplay(menuItem);
   }

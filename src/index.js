@@ -1,15 +1,13 @@
 import "./assets/styles/style.css";
-
 import Home from "./pages/home.js";
-import Menu from "./pages/menu";
-import Contact from "./pages/contact";
 import DisplayController from "./displayController";
 
 function index() {
-  const index = document.createElement("div");
-  index.appendChild(Home());
+  const contentDiv = document.createElement("div");
+  contentDiv.id = "content"
+  contentDiv.appendChild(Home());
 
-  return index;
+  return contentDiv;
 }
 
 document.body.appendChild(index());

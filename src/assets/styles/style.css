@@ -73,3 +73,24 @@ nav {
 
 /* menu page */
 
+.menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-item {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item-img {
+  height: 100px;
+}
+
+/* contact page */
